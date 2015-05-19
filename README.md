@@ -77,3 +77,28 @@ static $inject = ['$scope', 'MyAnimalFactory'];
 
 # types
 
+```js
+var isDone: boolean = false;
+var height: number = 6;
+var name: string = 'bob';
+var list: Animal[] = [];
+var list: Animal[];
+enum Color {Red, Green, Blue};
+function warn(): void {
+   //...
+}
+```
+
+# interfaces
+
+```js
+interface Being {
+  name: string;
+  live();
+}
+```
+
+```js
+interface IProjectsScope extends ng.IScope {
+}
+```
